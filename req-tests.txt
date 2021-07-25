@@ -1,0 +1,1 @@
+pytest-cov; python_version >= '3.6'

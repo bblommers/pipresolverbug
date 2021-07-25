@@ -1,0 +1,5 @@
+-e .
+-r req-tests.txt
+
+coverage==4.5.4
+boto>=2.45.0
