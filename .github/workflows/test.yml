@@ -7,7 +7,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        pip-version: [ pip==21.1, pip==21.2, git+git://github.com/notatallshaw/pip@first_attempt_at_prefer_non_conflicts ]
+        pip-version: [ pip==21.1, pip==21.2, "git+git://github.com/notatallshaw/pip@first_attempt_at_prefer_non_conflicts" ]
 
     steps:
     - uses: actions/checkout@v2
